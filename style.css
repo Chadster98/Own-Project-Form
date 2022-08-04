@@ -1,0 +1,18 @@
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+.Form {
+  background-color: white;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px 20px;
+  box-shadow: 2px 5px 10px rgba(255, 0, 0, 0.5);
+}
+.title {
+  text-align: center;
+
+  text-shadow: red 2px 2px;
+  color: aliceblue;
+}
