@@ -1,18 +1,42 @@
 body {
-  background-color: rgb(0, 0, 0);
+  background-color: blue;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
 }
-.Form {
-  background-color: white;
-  max-width: 500px;
-  margin: 50px auto;
-  padding: 30px 20px;
-  box-shadow: 2px 5px 10px rgba(255, 0, 0, 0.5);
-}
-.title {
-  text-align: center;
 
-  text-shadow: red 2px 2px;
-  color: aliceblue;
+button:hover {
+  background-color: skyblue;
+}
+.submit {
+  text-decoration: none;
+  color: black;
+}
+.Form {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.paper-form {
+  background-color: rgb(0, 247, 255);
+  padding-top: 20px;
+  padding: 50px;
+  border: 4px dashed black;
+}
+input,
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+.gender-pick {
+  margin-bottom: 75px;
+}
+.submit-button {
+  width: 100%;
+}
+
+.box-form {
+  background-color: rgb(0, 247, 255);
+  display: inline-block;
+  padding: 10px 30px;
+  border: 4px dashed black;
 }
